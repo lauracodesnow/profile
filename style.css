@@ -1,0 +1,131 @@
+ @media (min-width: 961px) {
+  .container{
+    width:900px;
+  }
+
+}
+
+@media (max-width:960px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 630px) {
+  .container {
+    width:430px;
+  }
+}
+
+@media (max-width: 479px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 360px;
+  }
+}
+@media (max-width: 400px) {
+  .container {
+     width: 300px;
+  }
+}
+@keyframes spin {
+  0% { transform: rotate(85deg); }
+  30% { transform: rotate(250deg); }
+  60% { transform: rotate(150deg); }
+  90% { transform: rotate(200deg); }
+  100% { transform: rotate(85deg); }
+}
+html {
+  font-size: 18px;
+}
+
+h1 {
+  color: #85586F;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 1em;
+  font-size: 2rem;
+}
+
+h2 {
+  color: #DEB6AB;
+  font-family: 'Roboto', sans-serif;
+  font-weight:600;
+  font-size: 1.5rem;
+}
+
+body {
+  background-color: hsla(42, 73%, 90%, 0.381);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 2em;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 2vh;
+}
+.card {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.096);
+  padding: 2rem;
+  margin: 20px auto;
+  /* background-color: rgb(255, 247, 233); */
+}
+
+
+a {
+  text-decoration: none;
+  color: #85586F;
+  font-weight: bold;
+}
+a:hover{
+  text-decoration: underline;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+}
+.list-inline a {
+  font-size: 3vw;
+  padding: 1rem 1rem;
+  color: #85586F;
+}
+.list-inline a:hover{
+  color:#AC7D88;
+  text-decoration: none;
+}
+.img-circle {
+  height: 10vw;
+  width: 10vw;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.list-random-bullet {
+  text-align: left;
+  list-style: square;
+  padding-left: 5rem;
+}
+.button-ugly {
+
+  box-shadow: 5px 5px 10px black;
+  border-radius: 50%;
+  color: white;
+  padding: 1rem;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,244,45,1) 32%, rgba(224,0,255,1) 100%);
+}
+.button-ugly:hover {
+  background-image: url;
+}
